@@ -1,0 +1,11 @@
+.bg-head {
+  height: 40vh;
+  background-image: url("https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-social.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+footer {
+  margin-top: auto;
+}
