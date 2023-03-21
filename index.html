@@ -14,125 +14,198 @@
     <link rel="stylesheet" href="CSS/style.css" />
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">Navbar</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
+    <div class="container-fluid px-0 d-flex min-vh-100 flex-column">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Navbar</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"> </span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link disabled"
+                  href="#"
+                  tabindex="-1"
+                  aria-disabled="true"
+                  >Disabled</a
+                >
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button class="btn btn-outline-success" type="submit">
+                Search
+              </button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <header>
+        <div
+          class="bg-head d-flex justify-content-end align-items-end img-fluid"
         >
-          <span class="navbar-toggler-icon"> </span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                href="#"
-                id="navbarDropdown"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                Dropdown
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li><hr class="dropdown-divider" /></li>
-                <li>
-                  <a class="dropdown-item" href="#">Something else here</a>
-                </li>
-              </ul>
-            </li>
-            <li class="nav-item">
-              <a
-                class="nav-link disabled"
-                href="#"
-                tabindex="-1"
-                aria-disabled="true"
-                >Disabled</a
-              >
-            </li>
+          <div class="m">
+            <div class="fw-bold h3">BootsTrap y Css</div>
+            <div class="fs-5">Practicas con bootstrap y Css</div>
+          </div>
+        </div>
+      </header>
+      <main>
+        <section>
+          <article>Aca Vamos a agregar contenido, tal vez unas cajas</article>
+          <div class="container-fluid d-flex">
+            <div class="card" style="width: 18rem">
+              <img
+                src="https://i.blogs.es/cf55cd/1366_2000/840_560.jpeg"
+                class="card-img-top"
+                alt="proce"
+              />
+              <div class="card-body">
+                <h5 class="card-title">PROCESADOR</h5>
+                <p class="card-text">
+                  Informacion sobre los distintos modelos de procesadores
+                  disponibles.
+                </p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+            <div class="card" style="width: 18rem">
+              <img
+                src="https://www.teamgroupinc.com/es/upload/product_m_list_pic/3f783785c3a938be5b54aa46acfc307b.jpg"
+                class="card-img-top"
+                alt="m2"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Almacenamiento</h5>
+                <p class="card-text">
+                  Informacion sobre los distintos tipos de almacenamiento
+                  disponibles.
+                </p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+            <div class="card" style="width: 18rem">
+              <img
+                src="https://img.freepik.com/vector-premium/tarjeta-video-concepto-isometrico-gpu-crypto-mining-ilustracion-vectorial_435055-389.jpg?auto=format&h=200"
+                class="GPU"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">GPU</h5>
+                <p class="card-text">
+                  Informacion sobre las distintas clases de GPU existentes en el
+                  mercado.
+                </p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+          <div>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla
+            consequatur quos ut beatae asperiores minus accusamus ipsam nemo.
+            Saepe aliquam doloribus ullam eveniet velit repudiandae tenetur
+            recusandae iusto? Temporibus, tempora! Quam aspernatur optio
+            consectetur nam, quos harum explicabo minima inventore laboriosam
+            aut nihil corrupti voluptate obcaecati eos alias vitae impedit,
+            voluptates soluta a ullam porro iste dolorem ut? Quia, cum?
+            Consequuntur, doloribus perspiciatis! At ipsam repellendus
+            exercitationem earum debitis hic eum odio enim quas libero quam
+            reprehenderit nisi adipisci illo, est rem accusantium quae repellat
+            ipsa non magnam veniam dignissimos. Voluptates accusantium dolor
+            iste error? Aliquam perferendis animi consequatur magnam quas quia
+            dolores maiores natus quod suscipit dolor praesentium, adipisci amet
+            molestiae, culpa harum dolorem vitae a fuga repudiandae cumque!
+            Impedit veniam officia, at error, id ducimus corporis voluptates ut
+            adipisci excepturi dolore nam sapiente alias dignissimos nemo
+            suscipit mollitia expedita architecto a. Natus quaerat officiis
+            delectus tenetur eius tempora. Accusantium fugiat quis amet optio?
+            Suscipit possimus soluta sint, aut libero quam culpa nihil error
+            provident doloremque nobis? Id fugit vel deserunt eius impedit nihil
+            voluptates voluptatibus laborum ipsam ipsa. Omnis mollitia deserunt
+            quidem perferendis vero dolorem error nostrum, aliquam odio unde
+            rerum animi esse earum ipsum, in eaque sunt provident! Impedit aut
+            repudiandae, maxime delectus quam quis ab architecto. Laborum fugit
+            laudantium inventore. Labore, voluptate rerum a itaque natus
+            facilis, ipsum accusantium iusto aliquam vitae quae ab deleniti
+            maiores ad magni ipsam sit ducimus aut enim aliquid dignissimos
+            voluptates. Minima, tenetur. Perspiciatis vero eveniet nulla
+            voluptates, neque maiores assumenda veniam quos ea adipisci? Amet
+            libero voluptates reprehenderit vitae aspernatur autem vero. Quas
+            illo magni rem dolore repellat quis omnis? Sequi consequuntur ipsam
+            nobis ullam repellat numquam iure doloremque atque cupiditate. Id
+            dolores minus asperiores iure, porro ut fugiat unde quisquam rerum
+            dolorem praesentium, laudantium nihil ratione, a voluptas molestias?
+            Placeat debitis rem totam numquam, nam et vel error omnis similique
+            autem, molestiae nulla distinctio mollitia porro aperiam, voluptatem
+            reiciendis nemo deserunt ipsa. Cupiditate illum nam ex, nobis
+            consequatur beatae. Ab vero explicabo sint excepturi mollitia illum
+            dignissimos in porro animi reprehenderit eligendi, cupiditate ullam
+            rem? A exercitationem eos sequi quod porro illum perferendis sit
+            perspiciatis blanditiis ea, debitis itaque! Aut itaque excepturi
+            optio. Debitis inventore expedita non, ab odit a numquam obcaecati
+            voluptatem officiis magnam dolorum nemo totam natus ullam tempora
+            molestiae fugit culpa autem nisi porro. Ipsa, vero! Praesentium,
+            nisi pariatur illo corrupti officia amet ducimus nesciunt ipsa eum
+            veritatis rerum error ullam a, officiis repellendus odio
+            voluptatibus sit consequuntur molestias! Eveniet corrupti earum quam
+            debitis, doloribus nesciunt? Alias tempore necessitatibus a
+            repudiandae nobis dignissimos aspernatur recusandae quae! Non
+            dolores quis sint reprehenderit maxime laudantium obcaecati ducimus
+            similique? Ipsa molestias odio, corporis ratione optio ex dolor
+            rerum ducimus?
+          </div>
+        </section>
+        <footer class="mt-auto">
+          Footer con algunos datos
+          <ul>
+            <li>Contacto</li>
+            <li>Acerca de</li>
+            <li>algo mas</li>
           </ul>
-          <form class="d-flex">
-            <input
-              class="form-control me-2"
-              type="search"
-              placeholder="Search"
-              aria-label="Search"
-            />
-            <button class="btn btn-outline-success" type="submit">
-              Search
-            </button>
-          </form>
-        </div>
-      </div>
-    </nav>
-    <header>
-      <div class="bg-head d-flex justify-content-end align-items-end img-fluid">
-        <div class="m">
-          <div class="fw-bold h3">BootsTrap y Css</div>
-          <div class="fs-5">Practicas con bootstrap y Css</div>
-        </div>
-      </div>
-    </header>
-    <main>
-      <section>
-        <article>Aca Vamos a agregar contenido, tal vez unas cajas</article>
-        <div class="container-fluid d-flex">
-          <div class="card" style="width: 18rem">
-            <img
-              src="https://i.blogs.es/cf55cd/1366_2000/840_560.jpeg"
-              class="card-img-top"
-              alt="proce"
-            />
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
-              </p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
-          </div>
-          <div class="card" style="width: 18rem">
-            <img
-              src="https://www.teamgroupinc.com/es/upload/product_m_list_pic/3f783785c3a938be5b54aa46acfc307b.jpg"
-              class="card-img-top"
-              alt="m2"
-            />
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
-              </p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
-          </div>
-        </div>
-      </section>
-      <footer class="mt-auto">
-        Footer con algunos datos
-        <ul>
-          <li>Contacto</li>
-          <li>Acerca de</li>
-          <li>algo mas</li>
-        </ul>
-      </footer>
-    </main>
+        </footer>
+      </main>
+    </div>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
